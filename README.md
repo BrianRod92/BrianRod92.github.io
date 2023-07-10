@@ -1,2 +1,2 @@
 # BrianRod92.github.io
-<p>Hello!</p>
+<h1>Hello!</h1>
