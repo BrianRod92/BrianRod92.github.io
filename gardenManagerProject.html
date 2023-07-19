@@ -75,21 +75,21 @@ Passionate developer here!!
                     img.addEventListener("click", enlargeImage);
                   });
 
-                  // Close enlarged image when the escape key is pressed
-    // document.addEventListener("keydown", (event) => {
-    //   if (event.key === "Escape" ) {
-    //     const activeEnlargedImg = document.querySelector(".enlarged-img.show");
-    //     if (activeEnlargedImg) {
-    //       activeEnlargedImg.classList.remove("show");
-    //     }
-    //   }
-    // });
-			document.addEventListener("click", (event) => {
-				const activeEnlargedImg = document.querySelector(".enlarged-img.show");
-				if (activeEnlargedImg && !activeEnlargedImg.contains(event.target)) {
-					activeEnlargedImg.classList.remove("show");
-				}
-			});
+                  Close enlarged image when the escape key is pressed
+    document.addEventListener("keydown", (event) => {
+      if (event.key === "Escape" ) {
+        const activeEnlargedImg = document.querySelector(".enlarged-img.show");
+        if (activeEnlargedImg) {
+          activeEnlargedImg.classList.remove("show");
+        }
+      }
+    });
+			// document.addEventListener("click", (event) => {
+			// 	const activeEnlargedImg = document.querySelector(".enlarged-img.show");
+			// 	if (activeEnlargedImg && !activeEnlargedImg.contains(event.target)) {
+			// 		activeEnlargedImg.classList.remove("show");
+			// 	}
+			// });
                 });
               </script>
   
