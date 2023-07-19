@@ -70,6 +70,13 @@ input, select, textarea {
 
 /* Basic */
 
+	video {
+ 	 width: 100%;
+	  max-width: 600px;
+  	height: auto;
+ 	 margin-top: 30px;
+	}
+
 	@-ms-viewport {
 		width: device-width;
 	}
