@@ -77,6 +77,13 @@ input, select, textarea {
  	 margin-top: 30px;
 	}
 
+	@media screen and (max-width: 768px) {
+		iframe {
+		width: 100%;
+		height: 800px; /* Adjust the height to your preference for mobile view */
+		}
+	}
+
 	@-ms-viewport {
 		width: device-width;
 	}
